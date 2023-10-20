@@ -1,0 +1,9 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    color: rgb(244, 12, 66);
+}
+div{
+    margin-left: 10px;
+    margin-right: 10%;
+}
