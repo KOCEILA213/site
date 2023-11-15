@@ -1,0 +1,122 @@
+div#menu{
+    width: 100px;
+    background-color:rgb(240, 248, 255);
+    margin: auto;
+
+}
+
+div#menu ul{
+    padding: 0;
+    width: 100px;
+    border: 1px solid;
+    margin: 0px;
+}
+
+div#menu ul li{
+    position: relative;
+    list-style: none;
+    border-bottom: 1px solid;
+}
+
+div#menu ul ul{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display: none;
+}
+
+div#menu li a{
+    text-decoration: none;
+}
+
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2,   div#menu ul.niveau2 li.sousmenu:hover ul.niveau3{
+    display: block;
+    background-color: RGBa(255,255,255,0.93);
+}
+
+div#menu a{
+    color: #000;
+}
+
+div#menu li:hover{
+    background: #EDD;
+}
+ 
+div#menu li.sousmenu:hover{background: rgb(202, 204, 212);}
+
+div#menu li a{
+    text-decoration: none;
+    padding: 4px 0px 4px 8px;
+    display: block;
+    border-left: 8px solid #BBB; width: 84px;
+}
+div#menu li a:hover{border-left-color: rgb(136, 0, 255);}
+div#menu ul ul li a:hover{border-left-color: #a2a5a2;}
+div#menu ul ul ul li a:hover{border-left-color: #08626e;}
+
+header{
+    background-color:rgb(194, 185, 186);
+    text-align: center;
+    border-radius: 5px;
+    border: solid 3px;
+    clear: both;
+}
+.case_menu{
+    float: left;
+    padding: 20px;
+    background-color: rgb(130, 157, 166);
+    border: solid 3px;
+    text-align: center;
+    width: 15%;
+    margin: 10px;
+    height: 250px;
+}
+.Accueuil{
+    background-color:rgb(230, 238, 144);
+    text-align: center;
+    border-radius: 5px;
+    border: solid 3px;
+    float: right;
+    width: 75%;
+    margin: 10px;
+    height: 275px;
+    padding: 8px;
+    
+}
+
+
+
+
+.paraAccueuil{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.photo{
+    border: solid 2px black;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    
+}
+
+p{
+    text-align: center;
+    width: 60%; 
+    font-weight: bold;
+
+}
+img{
+    height: 200px;
+}
+
+footer{
+    clear: both;
+    background-color:grey;
+    border-radius: 5px;
+    border: solid 3px;
+    text-align: center;
+    padding: 15px;
+
+}
